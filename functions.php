@@ -5,6 +5,8 @@
   $dbpass  = 'rnpassword';   // ...to your installation
   $appname = "Robin's Nest"; // ...and preference    JS item
 
+
+  $appname = "New Name";
   $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
   if ($connection->connect_error) die($connection->connect_error);
 
